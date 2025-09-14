@@ -405,6 +405,9 @@ ul {
 .center {
   text-align: center;
 }
+.cursor-pointer:hover{
+  cursor: pointer;
+}
 
 .lds-ring {
   display: inline-block;
