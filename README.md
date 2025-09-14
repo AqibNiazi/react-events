@@ -8,12 +8,13 @@ A practice project using **React 19** (frontend) + **Node.js** (backend) to buil
 
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
-- [Project Structure](#project-structure)  
 - [Getting Started](#getting-started)  
 - [Usage](#usage)  
 - [Examples of Advanced Concepts](#examples-of-advanced-concepts)  
 - [Future Improvements](#future-improvements)  
-
+- [Screenshots](#screenshots)  
+- [Contribution](#contribution)  
+- [Contact](#contact)  
 
 ---
 
@@ -23,8 +24,8 @@ A practice project using **React 19** (frontend) + **Node.js** (backend) to buil
 - Fetching remote data and mutating it using **TanStack Query**  
 - Use of React’s latest features:
   - Loaders & Action creators  
-  - React hooks 
-- Backend API built in Node.js to support events endpoints
+  - React hooks  
+- Backend API built in Node.js to support events endpoints  
 
 ---
 
@@ -34,7 +35,7 @@ A practice project using **React 19** (frontend) + **Node.js** (backend) to buil
 |--------------|---------------------|
 | Frontend     | React 19, React Router dom 6.15, React hooks, React loader/action patterns, TanStack Query 5.86 |
 | Backend      | Node.js, Express, RESTful API endpoints |
-| Data Storage | (Data Stored in Json files for Events) |
+| Data Storage | JSON files for events |
 
 ---
 
@@ -63,7 +64,7 @@ These are the steps to get the project running locally.
    ```bash
    cd ../frontend
    npm install
-   npm run dev     # should launch react app in development mode
+   npm run dev   # should launch react app in development mode
    ```
 
 4. **Open in browser**
@@ -78,20 +79,18 @@ These are the steps to get the project running locally.
 * Add a new event via a form (title, image, details, date, etc.)
 * Edit existing event(s)
 * Delete events
-* Possibly form validation
-* Error / loading states handled via TanStack Query (e.g. isLoading, isError)
+* Form validation (basic)
+* Error / loading states handled via TanStack Query (e.g. `isLoading`, `isError`)
 
 ---
 
 ## Examples of Advanced Concepts
 
-Here are a few of the more “advanced” / experimental things you’re practicing in this app:
-
 * **TanStack Query**
   Using query keys, invalidation, optimistic updates (if implemented), caching behavior, background refetching, etc.
 
 * **React Loaders & Actions**
-  Using newer React patterns (e.g. from React Router or from experimental features) to define loaders that fetch data before rendering, action creators / handlers for mutations.
+  Using newer React patterns (from React Router) to define loaders that fetch data before rendering, action creators / handlers for mutations.
 
 * **Error & Loading UI**
   Handling loading spinners, showing error messages, handling edge cases (no events, backend down, etc.)
@@ -100,10 +99,15 @@ Here are a few of the more “advanced” / experimental things you’re practic
 
 ## Future Improvements
 
-Here are some ideas for what could be added or improved:
-
 * Add user authentication so only authorized users can create / edit / delete events
 * Add pagination / infinite scrolling for large numbers of events
+
+---
+
+## Screenshots
+
+(Add screenshots or GIFs of your app here)
+
 ---
 
 ## Contribution
@@ -114,14 +118,9 @@ Since this is mostly a personal/practice project, contributions aren’t require
 2. Make your changes
 3. Open a Pull Request
 
-If you do, try to follow existing code style and include useful comments (especially around the advanced hooks / loader logic) so it’s clear what is being tested or demonstrated.
-
 ---
 
 ## Contact
-
-Your Name & contact info.
-For example:
 
 * GitHub: [AqibNiazi](https://github.com/AqibNiazi)
 * Email: [aqibjaved5201@gmail.com](mailto:aqibjaved5201@gmail.com)
