@@ -57,7 +57,7 @@ These are the steps to get the project running locally.
    npm install   # or yarn install
    # set environment variables if needed (e.g. PORT, DB_URL, etc.)
    npm start     # or node server.js / nodemon
-   ```
+````
 
 3. **Setup the frontend**
 
