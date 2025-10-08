@@ -6,7 +6,7 @@ The goal is to explore advanced data-fetching & mutation patterns (especially wi
 ---
 
 ## Table of Contents
-
+- [Screenshots](#Screenshots)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -18,6 +18,20 @@ The goal is to explore advanced data-fetching & mutation patterns (especially wi
 - [Contact](#contact)
 
 ---
+## Screenshots
+
+### Homepage
+![Home Page](frontend/public/home-page.png)
+
+---
+
+### Recent Events
+![Recent Events](frontend/public/recent-events.png)
+
+---
+
+### Search
+![Search](frontend/public/search.png)
 
 ## Features
 
@@ -220,14 +234,4 @@ If you contribute, please:
 
 ```
 
----
 
-✅ **Fixes made:**
-- Properly closed all code blocks (previous had extra backticks).  
-- Added consistent spacing and headings (`###` where needed).  
-- Unified bullet and code formatting.  
-- Made table spacing uniform.  
-- Added missing link in Table of Contents for *Contribution* and *Contact*.  
-- Improved readability for GitHub markdown rendering.
-
----
